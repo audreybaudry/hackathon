@@ -9,6 +9,17 @@
   margin-bottom: 3rem;
 }
 
+.number-title {
+  width: 3rem;
+  height: 3rem;
+  background-color: var(--purple);
+  border-radius: 50%;
+  box-shadow: 6px 6px 0 1px rgba(248, 231, 28, 1);
+  margin-right: 2rem;
+  display: flex;
+  justify-content: center;
+}
+
 .title-results {
   color: var(--yellow);
   font-size: 2.5rem;
@@ -30,13 +41,7 @@
   margin-bottom: 3rem;
 }
 
-.number-title {
-  width: 3rem;
-  height: 3rem;
-  background-color: var(--purple);
-  border-radius: 50%;
-  box-shadow: 6px 6px 0 1px rgba(248, 231, 28, 1);
-  margin-right: 2rem;
+.img-diagram {
   display: flex;
   justify-content: center;
 }
@@ -56,6 +61,10 @@
   font-size: 1.5rem;
 }
 
+.global-results .entreprise-results {
+  margin-bottom: 0.6rem;
+}
+
 .tick {
   height: 2.5rem;
   padding-left: 2rem;
@@ -66,20 +75,26 @@
   margin: 0 auto;
 }
 
+.text-results {
+  margin-bottom: 3rem;
+}
+
 .global-results-title {
   margin-top: 3rem;
   font-size: 3rem;
   text-align: center;
 }
 
-.quality-entreprise {
-  width: 50vw;
+.img-results {
+  width: 30%;
+  display: flex;
+  justify-content: center;
 }
 
 .global-results-entreprise {
   display: flex;
   align-items: center;
-  height: 40;
+  margin-bottom: 2rem;
 }
 
 .text-global-results {
