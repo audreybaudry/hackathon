@@ -1,4 +1,5 @@
 import { useContext } from "react";
+import { Link } from "react-router-dom";
 import { DyslexicContext } from "../context/DyslexicContext";
 
 import "./Header.scss";
@@ -14,7 +15,9 @@ export default function Header() {
 
   return (
     <section className="header-container">
-      <h1>EGAL-IT</h1>
+      <Link to="/">
+        <h1>EGAL-IT</h1>
+      </Link>
 
       <div className="dyslexique-container">
         {" "}

@@ -4,7 +4,6 @@ import { Link } from "react-router-dom";
 function Homepage() {
   return (
     <div className="homepage-container">
-      <h1 className="homepage-title">EGAL-IT</h1>
       <div className="text-homepage">
         <p>
           Le label “EGAL-IT” récompense les entreprises exemplaires en terme
@@ -16,7 +15,9 @@ function Homepage() {
         <p>Participez à notre quizz sur l’inclusivité de votre entreprise.</p>
       </div>
       <div className="button-homepage">
-        <Link to="/quizz">Commencer</Link>
+        <Link to="/quizz" className="link-homepage">
+          Commencer
+        </Link>
       </div>
     </div>
   );
