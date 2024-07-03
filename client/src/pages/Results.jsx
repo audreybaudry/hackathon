@@ -7,35 +7,35 @@ function Results() {
     {
       index: 1,
       title: "La présence des femmes",
-      tick: { tick },
+      tick,
       diagram:
         "https://media.nouvelobs.com/ext/uri/sreferentiel.nouvelobs.com/file/rue89/8207db15624fe1548440d206c780fe8f.jpg",
     },
     {
       index: 2,
       title: "Le salaire des femmes",
-      tick: { redcross },
+      tick: redcross,
       diagram:
         "https://media.nouvelobs.com/ext/uri/sreferentiel.nouvelobs.com/file/rue89/8207db15624fe1548440d206c780fe8f.jpg",
     },
     {
       index: 3,
       title: "Le salaire des femmes",
-      tick: { redcross },
+      tick: redcross,
       diagram:
         "https://media.nouvelobs.com/ext/uri/sreferentiel.nouvelobs.com/file/rue89/8207db15624fe1548440d206c780fe8f.jpg",
     },
     {
       index: 4,
       title: "Le salaire des femmes",
-      tick: { redcross },
+      tick: redcross,
       diagram:
         "https://media.nouvelobs.com/ext/uri/sreferentiel.nouvelobs.com/file/rue89/8207db15624fe1548440d206c780fe8f.jpg",
     },
     {
       index: 5,
       title: "Le salaire des femmes",
-      tick: { redcross },
+      tick,
       diagram:
         "https://media.nouvelobs.com/ext/uri/sreferentiel.nouvelobs.com/file/rue89/8207db15624fe1548440d206c780fe8f.jpg",
     },
@@ -58,11 +58,13 @@ function Results() {
                 src={result.tick}
               />
             </div>
-            <img
-              className="diagram"
-              alt="diagramme représentant les résultats"
-              src={result.diagram}
-            />
+            <div className="img-diagram">
+              <img
+                className="diagram"
+                alt="diagramme représentant les résultats"
+                src={result.diagram}
+              />
+            </div>
             <div className="entreprise">
               <h3 className="entreprise-results">VOTRE ENTREPRISE</h3>
               <p className="text">
@@ -82,11 +84,13 @@ function Results() {
         <div className="global-results">
           <h3 className="global-results-title">RÉSULTATS FINAUX</h3>
           <div className="global-results-entreprise">
-            <img
-              className="quality-entreprise"
-              alt="carré représentant les qualités de l'entreprise"
-              src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/Square_-_black_simple.svg/220px-Square_-_black_simple.svg.png"
-            />
+            <div className="img-results">
+              <img
+                className="quality-entreprise"
+                alt="carré représentant les qualités de l'entreprise"
+                src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/Square_-_black_simple.svg/220px-Square_-_black_simple.svg.png"
+              />
+            </div>
             <div className="entreprise-qualities">
               <h3 className="entreprise-results">VOTRE ENTREPRISE</h3>
               <h4>Vous êtes dans la catégorie des inclusifs</h4>
