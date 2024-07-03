@@ -6,7 +6,6 @@ import img2 from "../assets/images/perso02.png";
 function Homepage() {
   return (
     <div className="homepage-container">
-
       <img
         src={img1}
         alt="pixel art - personne sur un ordinateur"
@@ -28,7 +27,7 @@ function Homepage() {
         <br />
         <p>
           Vous souhaitez obtenir le label “EGAL-IT” ? Il vous suffit de répondre
-          à notre quizz sur l'inclusivité de votre entreprise et en quelques
+          à notre quiz sur l'inclusivité de votre entreprise. En quelques
           questions, vous pourrez savoir où vous vous situez concernant cette
           thématique comparé à d'autres entreprises de l'IT.
         </p>
@@ -37,7 +36,6 @@ function Homepage() {
         <p>
           Alors n'hésitez plus et cliquez sur commencer pour démarrer le quizz.
         </p>
-
       </div>
       <div className="button-homepage">
         <Link to="/quizz" className="link-homepage">
