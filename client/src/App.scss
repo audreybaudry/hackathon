@@ -2,8 +2,8 @@
   --first-font: "Amsterdam";
   --second-font: "Quicksand";
   --font-size: 16px;
-  --purple: #f8f8f8;
-  --yellow: #1a1616;
+  --purple: #6d39a8;
+  --yellow: #f4f654;
   --pink: #ed25b1;
 }
 
@@ -13,4 +13,8 @@
 body {
   margin: 0;
   padding: 0;
+}
+
+body a {
+  text-decoration: none;
 }
