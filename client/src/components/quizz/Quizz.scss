@@ -22,6 +22,7 @@
   padding-bottom: 1em;
   background-color: var(--purple);
   position: relative;
+  font-size: 1.2em;
 }
 .one-question-container {
   background-color: white;
@@ -29,9 +30,7 @@
   flex-direction: column;
   justify-content: start;
   align-items: start;
-  padding-left: 1em;
-  padding-top: 1em;
-  padding-bottom: 1em;
+  padding: 1em;
   gap: 1em;
   position: relative;
   input {
@@ -39,6 +38,7 @@
     padding: 1em;
     border-radius: 25px;
     margin-left: 2em;
+    margin-bottom: 2em;
   }
   label {
     margin-left: 1em;
@@ -64,5 +64,5 @@
   width: 80%;
 }
 #button-real-question {
-  margin-left: 70%;
+  margin-left: 60%;
 }

@@ -1,9 +1,7 @@
 .questions-container .question-reponse-container {
   width: 800px;
-  margin: auto;
+  margin: 2em auto;
   box-shadow: 8px 8px 0px var(--pink);
-  padding-top: 2em;
-  padding-bottom: 2em;
 }
 
 .index-container {
@@ -56,20 +54,19 @@
     transition: 0.5s;
     box-shadow: 8px 8px var(--yellow);
   }
-}
-
-button {
-  border: none;
-  background-color: var(--purple);
-  color: white;
-  border-radius: 25px;
-  padding: 0.5em;
-  font-family: var(--first-font);
-  font-size: 1.2em;
-  margin-left: 50%;
-}
-button:hover {
-  transform: scale(1.1);
-  transition: 0.5s;
-  box-shadow: 8px 8px var(--yellow);
+  button {
+    border: none;
+    background-color: var(--purple);
+    color: white;
+    border-radius: 25px;
+    padding: 0.5em;
+    font-family: var(--first-font);
+    font-size: 1.2em;
+    margin-left: 45%;
+  }
+  button:hover {
+    transform: scale(1.1);
+    transition: 0.5s;
+    box-shadow: 8px 8px var(--yellow);
+  }
 }
