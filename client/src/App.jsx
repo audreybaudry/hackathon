@@ -1,13 +1,18 @@
 import { Outlet } from "react-router-dom";
+import DyslexicContextProvider from "./context/DyslexicContext";
 import "./App.scss";
+import Header from "./components/Header";
 
 function App() {
   return (
-    <div>
-      <main>
-        <Outlet />
-      </main>
-    </div>
+    <DyslexicContextProvider>
+      <Header />
+      <div>
+        <main>
+          <Outlet />
+        </main>
+      </div>
+    </DyslexicContextProvider>
   );
 }
 
