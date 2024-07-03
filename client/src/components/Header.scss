@@ -1,0 +1,50 @@
+@import "../assets/fonts/fonts.scss";
+
+.header-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 2em;
+  padding-right: 2em;
+  background-color: var(--purple);
+  h1 {
+    font-family: var(--second-font);
+    color: var(--yellow);
+    font-size: 7em;
+    text-shadow: 3px 2px 0px var(--pink);
+    margin-top: 0.5em;
+  }
+
+  button {
+    background-color: var(--blue);
+    border-radius: 25px;
+    border: none;
+    height: 50px;
+  }
+
+  button:hover {
+    transform: scale(1.1);
+    transition: 0.5s;
+  }
+
+  img {
+    height: 40px;
+    width: 40px;
+  }
+}
+
+.dyslexique-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: flex-end;
+}
+.dys-message {
+  background-color: var(--blue);
+  font-family: var(--dyslexic-font);
+  border-radius: 25px;
+  padding: 1em;
+  margin-top: 0.5em;
+  box-shadow: 4px 4px 0 1px rgba(248, 231, 28, 1);
+}
