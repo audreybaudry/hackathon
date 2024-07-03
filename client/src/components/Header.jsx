@@ -1,6 +1,6 @@
 import { useContext } from "react";
+import { Link } from "react-router-dom";
 import { DyslexicContext } from "../context/DyslexicContext";
-
 import "./Header.scss";
 import accessibilityLogo from "../assets/images/accessibility-logo.svg";
 
@@ -14,23 +14,29 @@ export default function Header() {
 
   return (
     <section className="header-container">
-      <h1>EGAL-IT</h1>
+      <Link to="/">
+        <h1>EGAL-IT</h1>
+      </Link>
 
       <div className="dyslexique-container">
         {" "}
-        <button type="button" onClick={handleMessageDyslexic}>
+        <button
+          type="button"
+          onClick={handleMessageDyslexic}
+          className="btn-dys"
+        >
           <img src={accessibilityLogo} alt="Logo Accessibilité" />
         </button>
         {messageDyslexic && (
           <div className="dys-message">
-            Mode dyslexique :
+            Mode dyslexique
             {dyslexic ? (
-              <button type="button" onClick={handleDyslexicChange}>
-                OFF
+              <button type="button" onClick={handleDyslexicChange} id="btn-off">
+                ON
               </button>
             ) : (
-              <button type="button" onClick={handleDyslexicChange}>
-                ON
+              <button type="button" onClick={handleDyslexicChange} id="btn-on">
+                OFF
               </button>
             )}
           </div>
