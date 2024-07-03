@@ -23,8 +23,14 @@ body {
   margin: 0;
   padding: 0;
 
+
   font-family: var(--first-font);
+
+  background-color: var(--purple);
+
 }
+
+
 body.dyslexic-font {
   font-family: var(--dyslexic-font);
   font-size: 0.8em;
