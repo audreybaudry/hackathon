@@ -11,7 +11,7 @@
 
 .text-homepage {
   height: 50vh;
-  width: 80vw;
+  width: 70vw;
   margin: 0 auto;
   color: white;
   display: flex;
@@ -40,9 +40,10 @@
 
 .button-homepage a {
   color: white;
+  display: inline-block;
 }
 
-.button-homepage a:hover {
+.button-homepage:hover {
   transform: scale(1.1);
-  transition: 0.5s;
+  transition: transform 0.5s;
 }
