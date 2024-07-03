@@ -1,10 +1,13 @@
 :root {
-  --first-font: "Amsterdam";
-  --second-font: "Quicksand";
+  --first-font: "Puzzle-Tale-Pixel-Regular";
+  --first-font-bold: "Puzzle-Tale-Pixel-BG";
+  --second-font: "Broken Console Bold";
+  --normal-font: "Montserrat";
   --font-size: 16px;
   --purple: #6d39a8;
   --yellow: #f4f654;
   --pink: #ed25b1;
+  --blue: #b3f6fd;
 }
 
 * {
@@ -14,6 +17,21 @@ body {
   margin: 0;
   padding: 0;
 }
+
+
+@font-face {
+  font-family: "Broken Console Bold";
+  src: url("/assets/Broken-Console-Bold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Puzzle-Tale-Pixel-BG";
+  src: url("/assets/fonts/Puzzle-Tale-Pixel-BG.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Puzzle-Tale-Pixel-Regular";
+  src: url("/assets/fonts/Puzzle-Tale-Pixel-Regular.ttf") format("truetype");}
 
 body a {
   text-decoration: none;
