@@ -1,9 +1,18 @@
-.questions-container .question-reponse-container {
+.questions-container {
+  color: black;
+  background-color: var(--purple);
+  font-size: 1.8em;
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+  padding-top: 1em;
+  padding-bottom: 2em;
+}
+
+.question-reponse-container {
   width: 800px;
   margin: auto;
   box-shadow: 8px 8px 0px var(--pink);
-  padding-top: 2em;
-  padding-bottom: 2em;
 }
 
 .index-container {
@@ -37,8 +46,9 @@
   label {
     margin-left: 1em;
   }
-  .link-quizz {
+  button {
     border: none;
+    color: white;
     background-color: var(--purple);
     border-radius: 25px;
     padding: 0.5em;
@@ -47,11 +57,7 @@
     margin-left: 50%;
   }
 
-  .link-quizz a {
-    color: white;
-  }
-
-  .link-quizz:hover {
+  button:hover {
     transform: scale(1.1);
     transition: 0.5s;
     box-shadow: 8px 8px var(--yellow);

@@ -43,7 +43,7 @@
   label {
     margin-left: 1em;
   }
-  button {
+  .link-quizz {
     border: none;
     background-color: var(--purple);
     color: white;
@@ -53,7 +53,10 @@
     font-size: 1.2em;
     margin-left: 50%;
   }
-  button:hover {
+  .link-quizz a {
+    color: white;
+  }
+  .link-quizz:hover {
     transform: scale(1.1);
     transition: 0.5s;
     box-shadow: 8px 8px var(--yellow);
