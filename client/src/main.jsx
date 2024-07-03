@@ -1,14 +1,18 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
-
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
-
+import QuizzPage from "./components/quizz/QuizzPage";
 import App from "./App";
 
 const router = createBrowserRouter([
   {
-    path: "/",
     element: <App />,
+    children: [
+      {
+        path: "/quizz",
+        element: <QuizzPage />,
+      },
+    ],
   },
 ]);
 
