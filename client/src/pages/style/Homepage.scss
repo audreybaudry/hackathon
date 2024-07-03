@@ -1,0 +1,49 @@
+.homepage-container {
+  color: black;
+  background-color: var(--purple);
+  height: 100vh;
+}
+
+.homepage-title {
+  color: var(--yellow);
+  font-size: 10rem;
+  text-align: center;
+}
+
+.text-homepage {
+  height: 50vh;
+  font-family: var(--first-font);
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+.button-homepage {
+  width: 10%;
+  text-align: center;
+  cursor: pointer;
+  margin: 0 auto;
+  background-color: var(--pink);
+  border-radius: 1rem;
+  border: var(--pink);
+  font-size: 1.5rem;
+  padding: 1rem;
+  border-top-left-radius: 28px;
+  border-top-right-radius: 28px;
+  border-bottom-left-radius: 28px;
+  border-bottom-right-radius: 28px;
+  box-shadow: 4px 4px 0 1px rgba(248, 231, 28, 1);
+}
+
+.button-homepage a {
+  color: white;
+  font-family: var(--first-font);
+}
+
+.button-homepage a:hover {
+  transform: scale(1.1);
+  transition: 0.5s;
+}

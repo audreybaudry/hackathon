@@ -18,6 +18,7 @@ body {
   padding: 0;
 }
 
+
 @font-face {
   font-family: "Broken Console Bold";
   src: url("/assets/Broken-Console-Bold.ttf") format("truetype");
@@ -30,5 +31,8 @@ body {
 
 @font-face {
   font-family: "Puzzle-Tale-Pixel-Regular";
-  src: url("/assets/fonts/Puzzle-Tale-Pixel-Regular.ttf") format("truetype");
+  src: url("/assets/fonts/Puzzle-Tale-Pixel-Regular.ttf") format("truetype");}
+
+body a {
+  text-decoration: none;
 }
