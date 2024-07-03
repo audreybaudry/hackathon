@@ -2,7 +2,7 @@
 
 /* Autres styles */
 :root {
-  --first-font: "Puzzle-Tale-Pixel-Regular", sans-serif;
+  --first-font: "PixappInter-Bg48";
   --dyslexic-font: "OpenDyslexic", sans-serif;
   --second-font: "Broken Console Bold";
   --normal-font: "Montserrat";
@@ -22,18 +22,12 @@
 body {
   margin: 0;
   padding: 0;
-
-
   font-family: var(--first-font);
-
   background-color: var(--purple);
-
 }
-
 
 body.dyslexic-font {
   font-family: var(--dyslexic-font);
-  font-size: 0.8em;
 }
 
 body a {
