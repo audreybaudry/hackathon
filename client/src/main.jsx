@@ -7,6 +7,7 @@ import Homepage from "./pages/Homepage";
 import LoadingPage from "./components/LoadingPage";
 import Questions from "./components/quizz/Questions";
 import Results from "./pages/Results";
+import GoodPratices from "./components/GoodPratices";
 
 const router = createBrowserRouter([
   {
@@ -26,6 +27,7 @@ const router = createBrowserRouter([
       { path: "/questions", element: <Questions /> },
 
       { path: "/resultats", element: <Results /> },
+      { path: "/ressources", element: <GoodPratices /> },
     ],
   },
 ]);

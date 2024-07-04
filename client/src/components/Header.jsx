@@ -17,7 +17,9 @@ export default function Header() {
       <Link to="/">
         <h1>EGAL-IT</h1>
       </Link>
-
+      <div className="link-ressources">
+        <Link to="/ressources">Ressources</Link>
+      </div>
       <div className="dyslexique-container">
         {" "}
         <button
